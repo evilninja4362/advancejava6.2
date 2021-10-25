@@ -90,7 +90,7 @@ public class BookManagementController {
 	}
 
 
-	@PostMapping(value = "/edit")
+	@PostMapping(value = "/edits")
 	public String update(@ModelAttribute Book book, HttpSession session, @RequestParam("code") int code)
 			throws URISyntaxException {
 		RestServices.updateBook(book);
