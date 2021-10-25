@@ -16,8 +16,8 @@ public class BookmanagementApplication {
 		SpringApplication.run(BookmanagementApplication.class, args);
 	}
 
-	@Bean
+/*	@Bean
 	public LoginDao getLoginDao() {
 	return new LoginDao();
-	}
+	}  */
 }
