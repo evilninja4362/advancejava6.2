@@ -9,7 +9,7 @@ import org.springframework.context.annotation.ComponentScan;
 import com.nagarro.bookmanagement.dao.LoginDao;
 
 @SpringBootApplication
-@ComponentScan(basePackages= {"com.nagarro.bookmanagement.controller"})
+//@ComponentScan(basePackages= {"com.nagarro.bookmanagement.controller"})
 public class BookmanagementApplication {
 
 	public static void main(String[] args) {
